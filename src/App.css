@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lobster&family=Merienda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lobster&family=Lora:ital@1&family=Merienda:wght@500&display=swap');
+  @import 'react-toastify/dist/ReactToastify.css';
+
+.q1{
+  background-color: black;
+}
+.r1{
+  font-family: 'Merienda', cursive;
+}
+h3{
+  font-family: 'Lobster', sans-serif;
+  color: red;
+}
+p{
+font-family: 'Lora', serif;
+}
+.card{
+  font-family: 'Merienda', cursive;
+
+}
+span{
+  font-family: 'Merienda', cursive;
+
+}
+.g1{
+  border: 2px solid red;
+}
+.k1{
+  border: 5px solid white;
+}
+
+.f1{
+  border: 2px solid white;
+
+}
+.back{
+  background-image: url('./assets/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.y1{
+  margin-left: -47px;
+}
+
+
+
+
+
+
+
+
+
+.screen {
+  background-color: black;
+  height: 120px;
+  width: 90%;
+  margin: 10px 100px;
+  transform: rotateX(-48deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+.m1 {
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:800px){
+  .screen{
+    background-color: black;
+    height: 120px;
+    width: 150%;
+    margin: 10px 0;
+    transform: rotateX(-48deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  
+  }
+}
