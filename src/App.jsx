@@ -6,10 +6,8 @@ import Auth from './pages/Auth'
 import Footer from './Components/Footer'
 import Admin from './pages/Admin'
 import Booking from './pages/Booking'
-import Seat from './pages/Seat'
 import AdminDashboard from './pages/AdminDashboard'
 import UserDashboard from './pages/UserDashboard'
-import MovieShare from './Context/MovieShare'
 
 
 function App() {
@@ -23,7 +21,6 @@ function App() {
   <Route path='/admin'element={<Admin/>}></Route>
     <Route path='/movies'element={<Movies/>}></Route>
     <Route path='/booking/:id'element={<Booking/>}></Route>
-  <Route path='/seat'element={<Seat/>}></Route>
   <Route path='/admindashboard'element={<AdminDashboard/>}></Route>
   <Route path='/userdashboard'element={<UserDashboard/>}></Route>
 
